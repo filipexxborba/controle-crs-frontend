@@ -1,0 +1,66 @@
+ul{
+    list-style: none;
+    margin-top: 16px !important;
+    max-height: 80vh;
+    overflow-y: scroll;
+}
+
+ul a{
+    text-decoration: none;
+    color: currentColor;
+}
+
+.Ok{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: #5fe253;
+}
+
+.Atencao{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: #e8ed59;
+}
+
+.Urgencia{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: #ff4343;
+}
+
+.item-list{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 16px;
+    background: #fcfcfc;
+    padding: 16px;
+    border-radius: 4px;
+}
+
+@media (max-width: 428px){
+    .item-list{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+
+    ul{
+        max-height: none;
+        margin-bottom: 128px;
+        padding-bottom: 128px;
+    }
+    ul h3{
+        font-size: 16px;
+    }
+
+    ul p{
+        font-size: 14px;
+    }
+    .lista{
+        margin-bottom: 180px;
+    }
+}

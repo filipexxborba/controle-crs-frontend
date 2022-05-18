@@ -1,0 +1,128 @@
+.crsinfo{
+    background: white;
+    max-width: 90vw;
+    margin-top: 64px;
+    padding: 32px;
+    border-radius: 4px;
+}
+
+
+
+.crsinfo h3{
+    color: rgba(0, 0, 0, .7);
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.crsinfo p{
+    color: rgba(0, 0, 0, .7);
+    margin-bottom: 8px;
+}
+
+.crsinfo .cadastrar{
+    margin-top: 16px;
+}
+
+.crsinfo__observacoes{
+    border-top: 1px solid rgb(204, 204, 204);
+    margin-top: 16px;
+    padding-top: 16px;
+
+}
+
+.crsinfo__observacoes p{
+    max-width: 500px;
+    max-width: 100%;
+    overflow: auto;
+}
+
+.crsinfo__observacoes h4{
+   margin-bottom: 8px;
+}
+
+.crsinfo__observacoes button{
+    background-color: #E82C60;
+    color: white;
+    padding: 8px 32px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    flex: 1;
+}
+
+.crsinfo__observacoes input{
+    background-color: #f6f6f6;
+    padding: 8px 8px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    flex: 6;
+}
+
+.input__button{
+    margin-top: 24px ;
+}
+
+.acoes_crs{
+    max-width: 90vw;
+    margin-top: 32px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 0;
+}
+
+.acoes_crs button{
+    background-color: #E82C60;
+    color: white;
+    padding: 8px 32px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+
+@media (min-width: 1000px){
+    .crsinfo{
+        max-width: 50vw;
+    }
+    .acoes_crs{
+        max-width: 50vw;
+    }
+}
+
+@media (max-width: 428px){
+    .crsinfo{
+        margin-top: 8px;
+    }
+
+    .crsinfo h2{
+        font-size: 22px;
+    }
+
+    .crsinfo h3{
+        font-size: 16px;
+    }
+
+    .crsinfo p{
+        font-size: 14px;
+    }
+
+    .crsinfo__observacoes p{
+        font-size: 14px;
+    }
+
+    .acoes_crs button{
+        font-size: 12px;
+        padding: 8px 16px;
+    }
+
+    .acoes_crs{
+        gap: 8px;
+        padding: 0;
+    }
+}
+
